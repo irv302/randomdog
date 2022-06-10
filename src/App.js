@@ -18,9 +18,9 @@ function App() {
   return (
     <div className='app'>
       <h1>Random Dog Photo Generator</h1> <br />
-    
+    <div className="button">
       <input type="button" value="Get Random Dog" onClick={getDog} /><br />
-    
+    </div>
       <DogDisplay  dog= {dog} />
     </div>
   )}
